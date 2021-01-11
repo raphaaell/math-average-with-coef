@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Veuillez rentrez vos notes pur :");
+        System.out.println("Enter your notes :");
         ArrayList<Float> globalNote = new ArrayList<>();
         ArrayList<Float> globalMax = new ArrayList<>();
         ArrayList<Float> globalCoef = new ArrayList<>();
@@ -50,6 +50,6 @@ public class Main {
             down += coef;
         }
         float moyenne = top / down;
-        System.out.println("Votre moyenne est de : " + moyenne);
+        System.out.println("your average is of : " + moyenne);
     }
 }
