@@ -27,13 +27,13 @@ public class Main {
             iN++;
         }
         for (int i = 1; i <= globalNote.size(); i++) {
-            System.out.println(i + " max :");
+            System.out.println(i + " max (for this note : " + globalNote.get(i-1) + ") :");
             String text = scanner.nextLine();
             float max = Float.parseFloat(text);
             globalMax.add(max);
         }
         for (int i = 1; i <= globalNote.size(); i++) {
-            System.out.println(i + " coef :");
+            System.out.println(i + " coef (for this note : " + globalNote.get(i-1) + ") :");
             String text = scanner.nextLine();
             float coef = Float.parseFloat(text);
             globalCoef.add(coef);
